@@ -12,3 +12,4 @@ RUN apk del build-base nodejs-dev && \
     rm -rf /tmp/*
 VOLUME /app
 WORKDIR /app
+CMD ["npm", "run", "start"]
